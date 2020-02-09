@@ -11,6 +11,7 @@
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.1",
+    "react-sky": "^1.1.0",
     "styled-components": "^5.0.1",
     "styled-icons": "^9.3.0",
     "use-dencrypt-effect": "^1.0.1"
@@ -19,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,5 +38,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "homepage": "http://Changemin.github.io/react-portfolio",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

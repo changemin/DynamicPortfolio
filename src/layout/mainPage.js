@@ -1,14 +1,31 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import useDencrypt from 'use-dencrypt-effect';
+import Sky from 'react-sky';
+import triangle from '../res/1.svg'
+import line from '../res/2.svg'
+import circle from  '../res/3.svg'
 
 function MainPage() {
     return (
-        <MainContainer>
-            <StyledText>안녕하세요</StyledText>
-            <StyledText color="#656565" size="8vmax">{ GenerateDencrypt() }</StyledText>
-            <StyledText size="6vmax">변경민입니다</StyledText>
-        </MainContainer>
+        <div>
+          <Sky
+            images={{
+              0: triangle,
+              1: line,
+              2: circle
+            }}
+            how={10} /* Pass the number of images Sky will render chosing randomly */
+            time={3} /* time of animation */
+            size={'100px'} /* size of the rendered images */
+            background={'palettedvioletred'} /* color of background */
+          />
+          <MainContainer>  
+              <StyledText>안녕하세요</StyledText>
+              <StyledText color="#656565" size="8vmax">{ GenerateDencrypt() }</StyledText>
+              <StyledText size="6vmax">변경민입니다</StyledText>
+          </MainContainer>
+        </div>
     )
 }
 

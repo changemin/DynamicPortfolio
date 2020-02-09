@@ -14,7 +14,7 @@ class App extends Component {
       <Router>
         <div className = "App">
           <div className = "container">
-            {/* <Header /> */}
+            <Header />
             <Route exact path="/" render={props => (
               <React.Fragment>
                 <MainPage />

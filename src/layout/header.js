@@ -1,32 +1,26 @@
 import React from 'react';
-// import styled from 'styled-components';
+import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 
 function Header() {
     return (
-        <header style={headerStyle}>
-            <Link to="/home" style={linkStyle}>Home</Link> | 
-            <Link to="/about" style={linkStyle}>About</Link>
-        </header>
+        <Navbar>
+            <StyledLink to="/home">Home</StyledLink>
+            <StyledLink to="/about">About</StyledLink>
+            <StyledLink to="#">Blog</StyledLink>
+        </Navbar>
     )
 }
 
-// const styledHeader = styled.header`
-//     background-color: #ff0000;
-//     color: #fff;
-//     text-align: center;
-//     padding: 10px;
-// `
+const StyledLink = styled(Link)`
+    color:#BCBCBC;
+    margin-left: 5%;
+    margin-right:5%;
+`
 
-const headerStyle = {
-    background:"#333",
-    color:"#fff",
-    padding: "10px"
-}
-const linkStyle = {
-    color:'#fff',
-    textDecoration:'none'
-}
+const Navbar = styled.div`
+    margin-top:5%;
+`
 
 export default Header
