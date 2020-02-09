@@ -6,6 +6,7 @@ import MainPage from './layout/mainPage'
 import Footer from './layout/footer'
 import About from './pages/About';
 import Home from './pages/Home';
+import Blog from './pages/Blog';
 import './App.css';
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
         </div>
         <Route path="/about" component={About} />
         <Route path="/home" component={Home} />
+        <Route path="/blog" component={Blog} />
         <Footer />
       </Router>
     )

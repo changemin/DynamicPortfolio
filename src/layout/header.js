@@ -1,26 +1,31 @@
 import React from 'react';
 import styled from 'styled-components';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
+import './../App.css'
 
 
 function Header() {
     return (
         <Navbar>
-            <StyledLink exact to="../" activeStyle={ActiveStyle}>Home</StyledLink>
-            <StyledLink exact to="/about" activeStyle={ActiveStyle}>About</StyledLink>
-            <StyledLink exact to="./" activeStyle={ActiveStyle}>Blog</StyledLink>
+            <NavItem exact to="/" activeStyle={ActiveStyle} color="#eee236">Home</NavItem>
+            <NavItem exact to="/about" activeStyle={ActiveStyle} color="#f19595">About</NavItem>
+            <NavItem exact to="/blog" activeStyle={ActiveStyle} color="#71bcf4">Blog</NavItem>
         </Navbar>
     )
 }
 
-const StyledLink = styled(NavLink)`
-    color:#BCBCBC;
+const NavItem = styled(NavLink)`
+    color:${props => props.color || "#ABABAB"};
     margin: 5% 5%;
-
+    text-decoration: none;
+    opacity: 0.3;
+    padding: 8px;
+    text-shadow: 4px 4px 5px #fff;
 `
 
 const ActiveStyle = {
-    color:"#ff0000"
+    opacity:"1.0",
+    textShadow: "0px 0px 2px #CDCDCD"
 }
 
 const Navbar = styled.div`
@@ -29,3 +34,7 @@ const Navbar = styled.div`
 `
 
 export default Header
+
+// #eee236
+// #f19595
+// #71bcf4
