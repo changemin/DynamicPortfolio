@@ -5,6 +5,7 @@ import Sky from 'react-sky';
 import triangle from '../res/1.svg'
 import line from '../res/2.svg'
 import circle from  '../res/3.svg'
+import star from '../res/4.svg'
 
 function MainPage() {
     return (
@@ -13,7 +14,8 @@ function MainPage() {
             images={{
               0: triangle,
               1: line,
-              2: circle
+              2: circle,
+              3: star
             }}
             how={10} /* Pass the number of images Sky will render chosing randomly */
             time={3} /* time of animation */

@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 // import styled from 'styled-components';
 import Header from './layout/header';
-import MainPage from './layout/mainPage'
-import Footer from './layout/footer'
+import MainPage from './layout/mainPage';
+import Footer from './layout/footer';
+import Project from './pages/Project';
 import About from './pages/About';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
@@ -26,6 +27,7 @@ class App extends Component {
         <Route path="/about" component={About} />
         <Route path="/home" component={Home} />
         <Route path="/blog" component={Blog} />
+        <Route path="/project" component={Project} />
         <Footer />
       </Router>
     )

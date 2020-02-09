@@ -10,11 +10,13 @@ function Header() {
             <NavItem exact to="/" activeStyle={ActiveStyle} color="#eee236">Home</NavItem>
             <NavItem exact to="/about" activeStyle={ActiveStyle} color="#f19595">About</NavItem>
             <NavItem exact to="/blog" activeStyle={ActiveStyle} color="#71bcf4">Blog</NavItem>
+            <NavItem exact to="/project" activeStyle={ActiveStyle} color="#79F7DE">Project</NavItem>
         </Navbar>
     )
 }
 
 const NavItem = styled(NavLink)`
+    font-size: 13pt;
     color:${props => props.color || "#ABABAB"};
     margin: 5% 5%;
     text-decoration: none;
@@ -29,7 +31,7 @@ const ActiveStyle = {
 }
 
 const Navbar = styled.div`
-    margin-top:5%;
+    margin-top:4vmin;
 
 `
 
@@ -38,3 +40,4 @@ export default Header
 // #eee236
 // #f19595
 // #71bcf4
+// #79F7DE
