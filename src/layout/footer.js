@@ -10,6 +10,7 @@ function Footer() {
                 <a href={Links.github}><GithubSquare size={IconStyle.size} color={IconStyle.color.github}/></a>
                 <a href={Links.instagram}><Instagram size={IconStyle.size} color={IconStyle.color.instagram}/></a>
             </IconContainer>
+            <StyleText>&copy;2020, Made by Byun Kyung Min&#127924;</StyleText>
         </StyledFooter>
     )
 }
@@ -28,6 +29,14 @@ const IconContainer = styled.div`
     border: 10px;
     float:left;
     margin-left:5%;
+`
+
+const StyleText = styled.p`
+    font-family: consolas,sans-serif;
+    font-size: 15px;
+    word-spacing: -4px;
+    color: #787878;
+    float: right;
 `
 const Links = {
     facebook:"//facebook.com/bkm.change.min",

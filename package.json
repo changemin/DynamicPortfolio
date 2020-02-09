@@ -39,7 +39,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://Changemin.github.io/react-portfolio",
+  "homepage": "https://changemin.github.io/react-portfolio",
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }
