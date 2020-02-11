@@ -10,7 +10,7 @@ function Footer() {
                 <a href={Links.github}><GithubSquare size={IconStyle.size} color={IconStyle.color.github}/></a>
                 <a href={Links.instagram}><Instagram size={IconStyle.size} color={IconStyle.color.instagram}/></a>
             </IconContainer>
-            <StyleText>&copy;2020, Made by Byun Kyung Min&#127924;</StyleText>
+            <StyleText>&copy;2020, Made by Byun Kyung Min&#9996;</StyleText>
         </StyledFooter>
     )
 }
@@ -28,7 +28,7 @@ const StyledFooter = styled.footer`
 const IconContainer = styled.div`
     border: 10px;
     float:left;
-    margin-left:5%;
+    margin-left:3%;
 `
 
 const StyleText = styled.p`
@@ -44,7 +44,7 @@ const Links = {
     instagram:"//instagram.com/bkm.chage.min"
 }
 const IconStyle = {
-    size:"7vmin",
+    size:"4vmin",
     color:{
         facebook:"#3b5998",
         github:"#333",
