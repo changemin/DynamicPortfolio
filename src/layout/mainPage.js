@@ -5,7 +5,7 @@ import Sky from 'react-sky';
 import triangle from '../res/1.svg'
 import line from '../res/2.svg'
 import circle from  '../res/3.svg'
-import star from '../res/4.svg'
+import star from '../content/4.svg'
 import mainImg from '../res/mainImg.png'
 
 function MainPage() {
