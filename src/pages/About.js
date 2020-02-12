@@ -8,15 +8,23 @@ export default function About() {
             <Name>변경민</Name>
             <NickName>{hashtag.map(hashtag => "#"+hashtag+" ")}</NickName>
             <Stacks>
-                &#128170;Stakcs&#128170;
-                <ProgressBar percentage="1" />
+                <legend>&#128170;Stacks&#128170;</legend>
+                <ProgressBar percent="25" color="#eee236"/>
+                <ProgressBar percent="70" color="#f19595"/>
+                <ProgressBar percent="30" color="#71bcf4"/>
+                <ProgressBar percent="45" color="#79f7de"/>
             </Stacks>
             <Awards>
-                &#127942;Awards&#127942;
+                <legend>&#127942;Awards&#127942;</legend>
+                <Award>디미톤 금상</Award>
             </Awards>
         </div>
     )
 }
+const Award = styled.p`
+    color: #222;
+    font-family: 'Jua';
+`
 
 const Name = styled.h1`
     color:#222;
@@ -25,21 +33,20 @@ const Name = styled.h1`
 
 const NickName = styled.p`
     color:#000;
-    text-shadow: 2px 2px 5px #BCBCBC;
     font-family:  'Gaegu', cursive;
     font-weight: 700;
     word-spacing: -2px;
 `
-const Stacks = styled.div`
+const Stacks = styled.fieldset`
     float: left;
-    width: 50%;
+    width: 45%;
     height: inherit;
+    border: 2px dotted #303030;
+    border-radius: 5px;
 `
 
-const Awards = styled.div`
+const Awards = styled(Stacks)`
     float: right;
-    width: 50%;
-    height: inherit;
 `
 
 const hashtag = ["03년생", "웹개발자", "디미고"];
