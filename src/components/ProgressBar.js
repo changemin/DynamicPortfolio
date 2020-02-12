@@ -1,36 +1,29 @@
-import React from 'react';
-import styled from 'styled-components';
-import PropTypes from 'prop-types';
+import React, { Component } from 'react'
+import styled from 'styled-components'
 
-const Track = styled.div`
-    width: 100%;
-    height: 20px;
-    background-color: #222;
-    border-radius: 10px;
-    box-shadow: inset 0 0 5px #000;
-`
-
-const Thumb = styled.div`
-    width: ${props => props.percentage}%;
-    height: 100%;
-    background-color: #6bccf9;
-    border-radius: 8px;
-    transition: width 0.3s ease-in-out;
-`
-
-export default class ProgressBar extends React.Component {
-    clamp = (min, value, max) => {
-        return Math.min(Math.max(min, value), max);
-    }
-    render(){
-        return(
-            <Track>
-                <Thumb percentage={this.clamp(this.props.percentage)} />
-            </Track>
-        );
-    }
+export default class ProgressExampleIndicating extends Component {
+  state = { percent: this.props.percent }
+  render() {
+    return (
+      <ProgressBar>
+        <Filler percent={this.state.percent} indicating />
+      </ProgressBar>
+    )
+  }
 }
 
-ProgressBar.propTypes = {
-    percentage: PropTypes.string.isRequired
-}
+const Filler = styled.div`
+  background: #1DA598;
+  height: 100%;
+  width: ${props => props.percent}%;
+  border-radius: inherit;
+  transition: width .2s ease-in;
+`
+
+const ProgressBar = styled.div`
+  position: relative;
+  height: 20px;
+  width: 350px;
+  border-radius: 50px;
+  border: 1px solid #333;
+`
