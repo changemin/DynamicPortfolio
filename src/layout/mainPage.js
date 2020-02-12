@@ -2,11 +2,11 @@ import * as React from 'react';
 import styled from 'styled-components';
 import useDencrypt from 'use-dencrypt-effect';
 import Sky from 'react-sky';
-import triangle from '../res/1.svg'
-import line from '../res/2.svg'
-import circle from  '../res/3.svg'
+import triangle from '../content/1.svg'
+import line from '../content/2.svg'
+import circle from  '../content/3.svg'
 import star from '../content/4.svg'
-import mainImg from '../res/mainImg.png'
+import mainImg from '../content/mainImg.png'
 
 function MainPage() {
     return (
