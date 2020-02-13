@@ -1,12 +1,10 @@
 import React from 'react'
-import Projects from '../components/Projects'
+import ProjectItem from '../components/ProjectItem'
 
 export default function Project() {
-    return (
-        <div>
-            <Projects projectInfo={projectInfo}/>
-        </div>
-    )
+    return projectInfo.map((projectInfo)=>(
+        <ProjectItem projectInfo={projectInfo} />
+    ));
 }
 
 const projectInfo = [
