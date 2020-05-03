@@ -42,6 +42,6 @@
   },
   "homepage": "https://changemin.me",
   "devDependencies": {
-    "gh-pages": "^ㅊ2.2.0"
+    "gh-pages": "^2.2.0"
   }
 }
