@@ -34,7 +34,6 @@ const IconContainer = styled.div`
 const StyleText = styled.p`
     font-family: consolas,sans-serif;
     font-size: 15px;
-    word-spacing: -4px;
     color: #787878;
     float: right;
 `

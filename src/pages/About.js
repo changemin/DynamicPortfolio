@@ -1,30 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
 import ProgressBar from '../components/ProgressBar'
+import AvatarImg from '../content/Avatar.png'
 
 export default function About() {
     return (
         <div>
             <Name>변경민</Name>
-            <NickName>{hashtag.map(hashtag => "#"+hashtag+" ")}</NickName>
-            <StackContainer>
-                <legend>&#128170;Stacks&#128170;</legend>
-                <hr />
-                <ProgressBar percent="25" color="#eee236"/>
-                <ProgressBar percent="70" color="#f19595"/>
-                <ProgressBar percent="30" color="#71bcf4"/>
-                <ProgressBar percent="45" color="#79f7de"/>
-            </StackContainer>
-            <AwardContainer>
-                <legend>&#127942;Awards&#127942;</legend>
-                <hr />
-                {awards.map(awards => {
-                    return <Award>{ awards }</Award>
-                })}
-            </AwardContainer>
+            <Avatar src={AvatarImg}/>
         </div>
     )
 }
+
+const Avatar = styled.img`
+    width: 100px;
+`
 const Award = styled.li`
     color: #222;
     font-family: 'Spoca Han Sans';
