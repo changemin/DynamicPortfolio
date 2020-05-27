@@ -33,7 +33,7 @@ function Home() {
     )
 }
 
-const values = ["😀", "배고픈", "웹개발자", "죠리퐁좋아", "기획자"];
+const values = ["😀", "배고픈", "앱개발자", "죠리퐁좋아", "기획자"];
 
 const options = {
     chars: ["_"]

@@ -32,7 +32,7 @@ const ActiveStyle = {
 
 const Navbar = styled.div`
     margin-top:4vmin;
-
+    margin-bottom: 5vmin;
 `
 
 export default Header

@@ -1,10 +1,16 @@
 import React from 'react'
 import ProjectItem from '../components/ProjectItem'
+import styled from 'styled-components'
 
 export default function Project() {
-    return projectInfo.map((projectInfo)=>(
-        <ProjectItem projectInfo={projectInfo} />
-    ));
+    return (
+        <projectWrapper>
+            { projectInfo.map((projectInfo)=>(
+                <ProjectItem projectInfo={projectInfo} />
+            )) }
+        </projectWrapper>
+        
+    )
 }
 
 const projectInfo = [
@@ -30,3 +36,8 @@ const projectInfo = [
         "description":"신체장애인을 위한 독서보조도구"
     }
 ]
+
+const projectWrapper = styled.div`
+    background: red;
+    float: left;
+`

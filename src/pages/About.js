@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import ProgressBar from '../components/ProgressBar'
 import AvatarImg from '../content/Avatar.png'
 
 export default function About() {
