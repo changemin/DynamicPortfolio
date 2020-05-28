@@ -18,10 +18,8 @@ class ProjectItem extends Component {
 }
 
 const Item = styled.div`
+    display: grid;
     background: gray;
-    padding: 10px;
-    margin-right: 10px;
-    float: right;
 `
 
 const ProjectName = styled.h1`

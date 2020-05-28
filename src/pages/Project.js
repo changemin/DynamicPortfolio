@@ -35,13 +35,26 @@ const projectInfo = [
         "tags":"IT소셜벤처",
         "img":"",
         "description":"신체장애인을 위한 독서보조도구"
+    },
+    {
+        "name":"Luminous",
+        "year":"2019",
+        "tags":"IT소셜벤처",
+        "img":"",
+        "description":"신체장애인을 위한 독서보조도구"
+    },
+    {
+        "name":"Luminous",
+        "year":"2019",
+        "tags":"IT소셜벤처",
+        "img":"",
+        "description":"신체장애인을 위한 독서보조도구"
     }
 ]
 
 const ProjectContainer = styled.div`
-    width:90%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%, -50%);
+    display: inline-grid;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    margin-bottom: 15vmin;
 `
