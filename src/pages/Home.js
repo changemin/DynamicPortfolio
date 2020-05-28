@@ -6,7 +6,6 @@ import triangle from '../content/1.svg'
 import line from '../content/2.svg'
 import circle from  '../content/3.svg'
 import star from '../content/4.svg'
-import mainImg from '../content/mainImg.png'
 
 function Home() {
     return (
@@ -18,13 +17,13 @@ function Home() {
               2: circle,
               3: star
             }}
-            how={10} /* Pass the number of images Sky will render chosing randomly */
+            how={15} /* Pass the number of images Sky will render chosing randomly */
             time={3} /* time of animation */
             size={'80px'} /* size of the rendered images */
             background={'palettedvioletred'} /* color of background */
           />
           {/* <Img src={ mainImg }/> */}
-          <TextContainer>  
+          <TextContainer>
               <StyledText>안녕하세요</StyledText>
               <StyledText color="#656565" size="8vmax">{ GenerateDencrypt() }</StyledText>
               <StyledText size="6vmax">변경민입니다</StyledText>
@@ -33,7 +32,7 @@ function Home() {
     )
 }
 
-const values = ["😀", "배고픈", "앱개발자", "죠리퐁좋아", "기획자"];
+const values = ["🔥🦄🌈👑🐉", "배고픈", "한국디지털미디어고등학교", "죠리퐁이 좋은", "iOS개발자"];
 
 const options = {
     chars: ["_"]
@@ -74,7 +73,7 @@ const GenerateDencrypt = () => {
       dencrypt(values[i]);
 
       i = i === values.length - 1 ? 0 : i + 1;
-    }, 2500);
+    }, 3500);
 
     return () => clearInterval(action);
   }, []);

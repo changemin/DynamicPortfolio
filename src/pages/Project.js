@@ -4,12 +4,13 @@ import styled from 'styled-components'
 
 export default function Project() {
     return (
-        <projectWrapper>
-            { projectInfo.map((projectInfo)=>(
-                <ProjectItem projectInfo={projectInfo} />
-            )) }
-        </projectWrapper>
-        
+        <div>
+            <ProjectContainer>
+                { projectInfo.map((projectInfo)=>(
+                    <ProjectItem projectInfo={projectInfo} />
+                )) }
+            </ProjectContainer>
+        </div> 
     )
 }
 
@@ -37,7 +38,10 @@ const projectInfo = [
     }
 ]
 
-const projectWrapper = styled.div`
-    background: red;
-    float: left;
+const ProjectContainer = styled.div`
+    width:90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
 `
