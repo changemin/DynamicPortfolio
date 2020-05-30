@@ -57,4 +57,5 @@ const ProjectContainer = styled.div`
     grid-row-gap: 20px;
     grid-column-gap: 20px;
     margin-bottom: 15vmin;
+    column-count: 3;
 `
