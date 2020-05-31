@@ -15,6 +15,7 @@
     "react-scripts": "3.3.1",
     "react-sky": "^1.1.0",
     "react-spring": "8.0.27",
+    "react-syntax-highlighter": "12.2.1",
     "styled-components": "5.1.1",
     "styled-icons": "9.5.0",
     "use-dencrypt-effect": "1.0.2"
