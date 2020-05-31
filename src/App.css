@@ -10,6 +10,8 @@
 html{
   background-color: #f3f3f3;
   font-family: 'TmonMonsori', sans-serif;
+  width: 100%;
+  height: 100%;
 }
 
 * {
