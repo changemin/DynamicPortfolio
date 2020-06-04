@@ -17,8 +17,8 @@ function Header() {
 
 const NavItem = styled(NavLink)`
     font-size: 13pt;
-    color:${props => props.color || "#ABABAB"};
-    margin: 5% 5%;
+    color:${props => props.color ||  "#ABABAB"};
+    margin: 1% 1%;
     text-decoration: none;
     opacity: 0.3;
     padding: 8px;
