@@ -21,9 +21,12 @@ const Item = styled.div`
     display: grid;
     background: gray;
     padding: 10px;
+    transition: 0.3s;
     &:hover {
         background: red;
+        transition: 0.3s;
     }
+    border-radius: 10px;
 `
 
 const ProjectName = styled.h1`

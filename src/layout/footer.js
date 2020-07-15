@@ -38,7 +38,7 @@ const StyleText = styled.p`
     float: right;
 `
 const Links = {
-    facebook:"//facebook.com/bkm.change.min",
+    facebook:"https://facebook.com/bkm.change.min",
     github:"//github.com/Changemin",
     instagram:"//instagram.com/bkm.chage.min"
 }

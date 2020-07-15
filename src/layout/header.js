@@ -27,7 +27,10 @@ const NavItem = styled(NavLink)`
 
 const ActiveStyle = {
     opacity:"1.0",
-    textShadow: "0px 0px 2px #CDCDCD"
+    textShadow: "0px 0px 2px #CDCDCD",
+    BorderRadius: "5px",
+    Border: "red",
+    BackgroundColor: "red"
 }
 
 const Navbar = styled.div`

@@ -19,7 +19,8 @@
     "react-syntax-highlighter": "12.2.1",
     "styled-components": "5.1.1",
     "styled-icons": "9.5.0",
-    "use-dencrypt-effect": "1.0.2"
+    "use-dencrypt-effect": "1.0.2",
+    "yarn": "1.22.4"
   },
   "scripts": {
     "start": "react-scripts start",
