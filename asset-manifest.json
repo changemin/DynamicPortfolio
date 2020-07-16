@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.f86506c1.chunk.css",
-    "main.js": "/static/js/main.0d205293.chunk.js",
-    "main.js.map": "/static/js/main.0d205293.chunk.js.map",
+    "main.js": "/static/js/main.b2be03e4.chunk.js",
+    "main.js.map": "/static/js/main.b2be03e4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e3441cc1.js",
     "runtime-main.js.map": "/static/js/runtime-main.e3441cc1.js.map",
-    "static/js/2.e1e7b609.chunk.js": "/static/js/2.e1e7b609.chunk.js",
-    "static/js/2.e1e7b609.chunk.js.map": "/static/js/2.e1e7b609.chunk.js.map",
+    "static/js/2.3f9c04db.chunk.js": "/static/js/2.3f9c04db.chunk.js",
+    "static/js/2.3f9c04db.chunk.js.map": "/static/js/2.3f9c04db.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.601364578e8093859a227a4001991e3a.js": "/precache-manifest.601364578e8093859a227a4001991e3a.js",
+    "precache-manifest.7c1fbcf9ca9731118a65caa2377a29d7.js": "/precache-manifest.7c1fbcf9ca9731118a65caa2377a29d7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.f86506c1.chunk.css.map": "/static/css/main.f86506c1.chunk.css.map",
-    "static/js/2.e1e7b609.chunk.js.LICENSE.txt": "/static/js/2.e1e7b609.chunk.js.LICENSE.txt",
+    "static/js/2.3f9c04db.chunk.js.LICENSE.txt": "/static/js/2.3f9c04db.chunk.js.LICENSE.txt",
     "static/media/1.svg": "/static/media/1.6aa55f82.svg",
     "static/media/2.svg": "/static/media/2.05ce3ada.svg",
-    "static/media/2020-04-30-Answering-the-big-question-should-you-learn-SwiftUI-UIKit-or-both.md": "/static/media/2020-04-30-Answering-the-big-question-should-you-learn-SwiftUI-UIKit-or-both.8bdfdcac.md",
     "static/media/3.svg": "/static/media/3.e3cfcca2.svg",
-    "static/media/4.svg": "/static/media/4.196e3f7f.svg"
+    "static/media/4.svg": "/static/media/4.196e3f7f.svg",
+    "static/media/Avatar.png": "/static/media/Avatar.2d2da49a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e3441cc1.js",
-    "static/js/2.e1e7b609.chunk.js",
+    "static/js/2.3f9c04db.chunk.js",
     "static/css/main.f86506c1.chunk.css",
-    "static/js/main.0d205293.chunk.js"
+    "static/js/main.b2be03e4.chunk.js"
   ]
 }
