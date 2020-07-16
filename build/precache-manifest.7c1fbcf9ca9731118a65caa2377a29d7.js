@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f208e33d8749c381a1359a47dc633913",
+    "revision": "1baa03b5c8286852b4ff4ab401b475a4",
     "url": "/index.html"
   },
   {
-    "revision": "be1834dcac3d020b010b",
+    "revision": "d9d8ca1cd4e1ac1f78f7",
     "url": "/static/css/main.f86506c1.chunk.css"
   },
   {
-    "revision": "ec2e7dc2bac0c60ae23a",
-    "url": "/static/js/2.e1e7b609.chunk.js"
+    "revision": "d50252b07c607155098b",
+    "url": "/static/js/2.3f9c04db.chunk.js"
   },
   {
     "revision": "22696066dd7c9a3a55c06f2f49afd6ac",
-    "url": "/static/js/2.e1e7b609.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3f9c04db.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "be1834dcac3d020b010b",
-    "url": "/static/js/main.0d205293.chunk.js"
+    "revision": "d9d8ca1cd4e1ac1f78f7",
+    "url": "/static/js/main.b2be03e4.chunk.js"
   },
   {
     "revision": "92a8fa6d2a61009e0c1c",
@@ -32,15 +32,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/2.05ce3ada.svg"
   },
   {
-    "revision": "8bdfdcac01d4aade588623e7cce0cfac",
-    "url": "/static/media/2020-04-30-Answering-the-big-question-should-you-learn-SwiftUI-UIKit-or-both.8bdfdcac.md"
-  },
-  {
     "revision": "e3cfcca2d9bf5c83b222b759d0ebf44c",
     "url": "/static/media/3.e3cfcca2.svg"
   },
   {
     "revision": "196e3f7f04b548c0de3c583de2e9fcad",
     "url": "/static/media/4.196e3f7f.svg"
+  },
+  {
+    "revision": "2d2da49a29358d4d2636c5e5b807aaa7",
+    "url": "/static/media/Avatar.2d2da49a.png"
   }
 ]);
