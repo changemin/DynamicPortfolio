@@ -7,7 +7,7 @@ class ProjectItem extends Component {
         const projectInfo = this.props.projectInfo;
         console.log(projectInfo.Name);
         return (
-            <Item>
+            <Item img={ projectInfo.img }>
                 <ProjectName>{ projectInfo.name }</ProjectName>
                 <Year>{ projectInfo.year }년</Year>
                 <Tags>{ projectInfo.tags }</Tags>
@@ -16,17 +16,21 @@ class ProjectItem extends Component {
         )
     }
 }
-
 const Item = styled.div`
     display: grid;
-    background: gray;
     padding: 10px;
     transition: 0.3s;
+    /* background-color: rgba(0,0,0,0.4); */
+    background-image: url(${props => props.img});
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
     &:hover {
-        background: red;
+        background-color: rgba(0,0,0,0.05);
         transition: 0.3s;
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
     }
-    border-radius: 10px;
 `
 
 const ProjectName = styled.h1`

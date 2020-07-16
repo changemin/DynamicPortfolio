@@ -33,14 +33,14 @@ const IconContainer = styled.div`
 
 const StyleText = styled.p`
     font-family: consolas,sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     color: #787878;
     float: right;
 `
 const Links = {
     facebook:"https://facebook.com/bkm.change.min",
-    github:"//github.com/Changemin",
-    instagram:"//instagram.com/bkm.chage.min"
+    github:"https://github.com/Changemin",
+    instagram:"https://instagram.com/bkm.change.min"
 }
 const IconStyle = {
     size:"4vmin",
