@@ -2,10 +2,10 @@ import * as React from 'react';
 import styled from 'styled-components';
 import useDencrypt from 'use-dencrypt-effect';
 import Sky from 'react-sky';
-import triangle from '../content/1.svg'
-import line from '../content/2.svg'
-import circle from  '../content/3.svg'
-import star from '../content/4.svg'
+import triangle from '../Contents/1.svg'
+import line from '../Contents/2.svg'
+import circle from  '../Contents/3.svg'
+import star from '../Contents/4.svg'
 
 function Home() {
     return (

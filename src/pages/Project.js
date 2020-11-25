@@ -1,7 +1,7 @@
 import React from 'react'
-import ProjectItem from '../components/ProjectItem'
+import ProjectItem from '../Components/ProjectItem'
 import styled from 'styled-components'
-import image from '../content/Avatar.png'
+import image from '../Contents/Avatar.png'
 
 export default function Project() {
     return (

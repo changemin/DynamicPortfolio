@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Header from './layout/header';
-import Footer from './layout/footer';
-import Project from './pages/Project';
-import About from './pages/About';
-import Home from './pages/Home';
-import Blog from './pages/Blog';
+import Header from './Layouts/header';
+import Footer from './Layouts/footer';
+import Project from './Pages/Project';
+import About from './Pages/About';
+import Home from './Pages/Home';
+import Blog from './Pages/Blog';
 import './App.css';
 
 class App extends Component {
