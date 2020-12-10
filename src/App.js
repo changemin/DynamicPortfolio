@@ -5,7 +5,6 @@ import Footer from './Layouts/footer';
 import Project from './Pages/Project';
 import About from './Pages/About';
 import Home from './Pages/Home';
-import Blog from './Pages/Blog';
 import './App.css';
 
 class App extends Component {
