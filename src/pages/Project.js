@@ -98,14 +98,14 @@ const projectList = [
         "name":"디미고인 iOS",
         "year":"2020",
         "tags":"Swift",
-        "img": "./Contents/Projects/dimigoin.png",
+        "img": "../Contents/Projects/dimigoin.png",
         "description":"디미고인에서 iOS개발을 담당했습니다"
     },
     {
         "name":"Dr.Daily",
         "year":"2020",
         "tags":"Swift",
-        "img":"src/Contents/Projects/Dr.Daily.png",
+        "img":"../Contents/Projects/Dr.Daily.png",
         "description":"내 손안의 주치의, Dr.Daily"
     },
     {

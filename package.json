@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.2.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-parallax-tilt": "^1.4.67",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-sky": "^1.1.0",
