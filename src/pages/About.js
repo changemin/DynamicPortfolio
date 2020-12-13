@@ -1,10 +1,7 @@
-import React from 'react'
+import React from 'react';
 import ReactDOM from 'react-dom';
 import Tilt from 'react-parallax-tilt';
-import styled from 'styled-components'
-import Avatar from '../Contents/Avatar.png'
-import Background from '../Contents/Background.png'
-import AboutImg from '../Contents/About.png'
+import AboutImg from '../Contents/About.png';
 
 const options = {
     max: 10,
@@ -28,14 +25,6 @@ export default function About() {
         
     )
 }
-
-const AvatarStyle = styled.img `
-    width: 20em;
-`
-const BackgroundStyle = styled.img`
-    position: fixed;
-    width: 20em;
-`
 
 const AboutStyle = styled.img`
     margin-top: 2em;
